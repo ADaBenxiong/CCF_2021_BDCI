@@ -11,16 +11,21 @@
 操作说明
 ----
 **模型训练说明**，配置好run.sh文件，配置好数据以及预训练模型，使用bash run.sh即可开始进行训练。
+
 - data	存放训练模型的数据，官方获取数据
 - init_model	存放预训练模型，尝试使用了（roberta_wwm_large, roberta_zh_large, MacBert_large）三种预训练模型
 - run.sh	进行训练模型的脚本
 - model.py	存放网络模型代码
 - data.py	数据预处理代码
 - train_pytorch.py	模型训练的主代码
+
 **bad_case分析**，配置好analysis.sh，使用bash analysis.sh即可开始进行bad_case分析
+
 - analysis.sh	分析错误样例的脚本
 - bad_case.py	进行错误分析的代码
-**其他操作**
+
+**其他分析操作**
+
 - pseudo_label.py	打伪标签生成伪标签数据集
 - data_analyze.py	数据分析的代码
 - vote.py	模型集成推理预测
