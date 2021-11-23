@@ -6,7 +6,7 @@
 
 [2021 CCF BDCI 千言-问题匹配鲁棒性评测(baidu.com)](https://aistudio.baidu.com/aistudio/competition/detail/116/0/introduction)
 
-**成绩：A榜 29 /409**
+**成绩：A榜 rank 29th, B榜 rank 15th**
 
 操作说明
 ----
